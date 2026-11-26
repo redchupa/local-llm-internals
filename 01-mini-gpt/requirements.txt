@@ -1,0 +1,9 @@
+# Phase 1: 01-mini-gpt dependencies
+# Note: tokenizer.py uses only the Python standard library.
+# For model.py & train.py (Week 2+):
+#   - Mini-PC (CPU): pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   - RTX 5070 Ti (CUDA 12.8+): pip install torch --index-url https://download.pytorch.org/whl/cu128
+# Recommended Python version for PyTorch compatibility: 3.11 or 3.12
+
+numpy>=1.26.0
+pytest>=8.0.0

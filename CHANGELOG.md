@@ -2,6 +2,14 @@
 
 이 프로젝트의 주요 변경 사항은 이 파일에 기록됩니다.
 
+## [0.2.0] - 2026-11-26
+
+### Added
+- Phase 1 (1주차) 순수 Python 기반 Byte-level BPE 토크나이저 구현 (`01-mini-gpt/tokenizer.py`)
+- 토크나이저 단위 테스트 스위트 추가 (`01-mini-gpt/tests/test_tokenizer.py`)
+- Phase 1 의존성 파일(`01-mini-gpt/requirements.txt`) 및 RTX 5070 Ti CUDA 12.8용 `docker/Dockerfile` 추가
+- `docs/01_transformer_math.md` 1절(BPE 토크나이저 원리 및 `vocab_size` 트레이드오프) 상세 정리
+
 ## [0.1.0] - 2026-11-26
 
 ### Added

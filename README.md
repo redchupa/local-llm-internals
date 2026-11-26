@@ -33,7 +33,7 @@
 ## 진행률 체크리스트
 
 ### Phase 1: LLM 핵심 아키텍처 구현 (1-4주)
-- [ ] BPE 토크나이저 원리 분석 및 미니 구현
+- [x] BPE 토크나이저 원리 분석 및 미니 구현 (`01-mini-gpt/tokenizer.py`)
 - [ ] PyTorch Decoder-only Transformer (RoPE, GQA 포함) 구현 (`01-mini-gpt/model.py`)
 - [ ] 소형 텍스트 데이터셋 학습 루프 및 샘플링 구현 (`01-mini-gpt/train.py`)
 - [ ] 텐서 차원 변화 및 수식 도식화 정리 ([`docs/01_transformer_math.md`](docs/01_transformer_math.md))
