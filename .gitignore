@@ -1,0 +1,59 @@
+# Model weights & large binaries (NEVER commit)
+*.gguf
+*.ggml
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+models/
+weights/
+checkpoints/
+datasets/raw/
+
+# Secrets & environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Jupyter / Logs / Profiling
+.ipynb_checkpoints/
+wandb/
+runs/
+logs/
+*.log
+*.nsys-rep
+*.ncu-rep
+
+# C++ / CMake / llama.cpp local builds
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.o
+*.so
+*.dll
+*.exe
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
